@@ -11,7 +11,7 @@ use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
-    public function getInfo(Request $request) {
+    public function getInfo(ProductRequest $request) {
         //Пример ожидаемых данных
         /*$request->merge([
             'category' => 'compound',
